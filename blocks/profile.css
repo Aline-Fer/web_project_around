@@ -1,0 +1,102 @@
+.profile {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  max-width: 880px;
+  width: 100%;
+  color: white;
+  align-items: center;
+}
+
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile__container-name-and-button {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.profile__name {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  letter-spacing: 0;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 373px;
+}
+
+.profile__edit-button {
+  background-image: url(../images/pen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  width: 24px;
+  height: 24px;
+  font-size: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.profile__about {
+  margin-bottom: 0;
+  margin-top: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 415px;
+}
+
+.profile__add-button {
+  background-image: url(../images/add.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+@media (max-width: 784px) {
+  .profile {
+    flex-direction: column;
+    max-width: 282px;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile__name {
+    font-size: 22px;
+    line-height: 100%;
+    max-width: 196px;
+  }
+
+  .profile__about {
+    font-size: 14px;
+    line-height: 100%;
+    max-width: 282px;
+  }
+
+  .profile__add-button {
+    width: 100%;
+    margin-top: 36px;
+  }
+}

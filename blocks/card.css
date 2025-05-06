@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card__image {
+  width: 282;
+  height: 282;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__container-title-and-likebtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 282px;
+  height: 79px;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  padding: 0 18px;
+}
+
+.card__city-name {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-bottom: 31px;
+  margin-top: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 225px;
+}
+
+.card__likebtn {
+  background-image: url(../images/lkbtm.png);
+  background-repeat: no-repeat;
+  background-size: 21px;
+  width: 21px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+}
