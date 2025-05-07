@@ -20,8 +20,7 @@ function closePopup(popup) {
 }
 
 // o usuario precisa clicar no botao de fechar X
-editProfilePopupCloseButton.addEventListener(
-  "click",
+editProfilePopupCloseButton.addEventListener("click", () =>
   closePopup(popupEditProfile)
 );
 

@@ -40,6 +40,11 @@
   background-color: transparent;
 }
 
+.popup__close-btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 .popup__title {
   margin-top: 0;
   margin-bottom: 54px;
@@ -73,4 +78,32 @@
   border: none;
   outline: none;
   margin-top: 19px;
+}
+
+.popup__submit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (max-width: 680px) {
+  .popup__container {
+    max-width: 282px;
+    max-height: 322px;
+    top: 123px;
+    padding: 25px 22px;
+  }
+
+  .popup__close-btn {
+    top: -36px;
+    right: 0;
+    width: 26px;
+    height: 26px;
+  }
+  .popup__title {
+    font-size: 18px;
+  }
+
+  .popup__submit {
+    font-size: 14px;
+  }
 }

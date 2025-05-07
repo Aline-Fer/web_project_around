@@ -45,6 +45,11 @@
   background-color: transparent;
 }
 
+.profile__add-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 .profile__about {
   margin-bottom: 0;
   margin-top: 16px;
@@ -69,6 +74,11 @@
   border: 2px solid #fff;
   margin-left: auto;
   background-color: transparent;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 @media (max-width: 784px) {

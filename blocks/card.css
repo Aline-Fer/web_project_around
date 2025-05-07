@@ -47,3 +47,8 @@
   border: none;
   background-color: transparent;
 }
+
+.card__likebtn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
